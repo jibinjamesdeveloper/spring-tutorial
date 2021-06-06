@@ -37,7 +37,7 @@ public class DepartmentController {
     @GetMapping("/department/{id}")
     public Department fetchDepartmentById(@PathVariable("id") Long departmentId) throws DepartmentNotFoundException {
         LOGGER.info("inside fetchDepartmentById of DepartmentController");
-        return departmentService.fetchDepartmentByid(departmentId);
+        return departmentService.fetchDepartmentById(departmentId);
     }
 
     @DeleteMapping("/departments/{id}")

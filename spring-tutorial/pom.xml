@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.jibin</groupId>
 	<artifactId>spring-tutorial</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>spring-tutorial</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -55,6 +55,10 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 	</dependencies>
 
